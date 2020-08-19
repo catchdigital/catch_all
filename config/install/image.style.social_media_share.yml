@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: social_media_share
+label: 'Social Media Share'
+effects:
+  e8f4054e-e10c-410d-8728-2a27f0a1b3b5:
+    uuid: e8f4054e-e10c-410d-8728-2a27f0a1b3b5
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 630
+      crop_type: focal_point
+pipeline: default

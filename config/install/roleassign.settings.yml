@@ -1,0 +1,4 @@
+roleassign_roles:
+  content_editor: content_editor
+  product_owner: product_owner
+  administrator: '0'

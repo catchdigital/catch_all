@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_resmushit
+name: default
+label: Default
+processors:
+  7b73fa4f-01ff-480a-a8cc-6ad387af55cf:
+    uuid: 7b73fa4f-01ff-480a-a8cc-6ad387af55cf
+    id: resmushit
+    weight: 1
+    data:
+      quality: 80

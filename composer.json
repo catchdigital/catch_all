@@ -1,0 +1,19 @@
+{
+    "name": "catchdigital/catch_all",
+    "description": "A Catch all profile, to allow a base installation.",
+    "type": "drupal-custom-profile",
+    "authors": [
+        {
+            "name": "Liam Hiscock",
+            "homepage": "https://www.drupal.org/u/LiamPower",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/catchdigital/catch_all/issues",
+        "source": "git@github.com:catchdigital/catch_all.git"
+    },
+    "require": {
+        "drupal/core": "^9.0"
+    }
+}
