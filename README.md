@@ -1,6 +1,6 @@
 # Catch All Profile
 
-##Setup
+## Setup
 Install required modules with composer. I have removed these from the composer file to allow projects to take full long term ownership of their dependencies.
 ````
 composer require drupal/admin_toolbar:^2.3 drupal/advagg:^4.1 drupal/focal_point:^1.4 drupal/field_group:^3.1 drupal/imageapi_optimize:^4.0@beta drupal/imageapi_optimize_resmushit:^2.0@beta drupal/paragraphs:^1.12 drupal/metatag:^1.14 drupal/pathauto:^1.8 drupal/rabbit_hole:^1.0@beta drupal/redirect:^1.6 drupal/roleassign:^1.0@beta drupal/seckit:^1.2 drupal/simple_sitemap:^3.7 drupal/smart_trim:^1.3 drupal/stage_file_proxy:^1.0 drupal/eu_cookie_compliance:^1.9 drupal/hook_event_dispatcher:^2.2 drupal/username_enumeration_prevention:^1.1 drupal/linkit:^6.0.0
