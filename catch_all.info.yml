@@ -27,6 +27,7 @@ install:
   - file
   - filter
   - focal_point
+  - google_tag
   - hook_event_dispatcher
   - http2_server_push
   - image

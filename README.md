@@ -24,7 +24,8 @@ composer require \
   drupal/hook_event_dispatcher:^2.2 \
   drupal/username_enumeration_prevention:^1.1 \
   drupal/linkit:^6.0.0 \
-  drupal/http2_server_push:^1.1
+  drupal/http2_server_push:^1.1 \
+  drupal/google_tag:^1.4
 ````
 
 ## What's in the profile
@@ -66,7 +67,9 @@ This also has focal point and image optimisation set up out of the box for crops
 - file
 - filter
 - focal_point
+- google_tag
 - hook_event_dispatcher
+- http2_server_push
 - image
 - imageapi_optimize
 - imageapi_optimize_resmushit
