@@ -9,9 +9,10 @@
             "role": "Maintainer"
         }
     ],
+    "license": "Apache-2.0",
     "support": {
         "issues": "https://github.com/catchdigital/catch_all/issues",
-        "source": "git@github.com:catchdigital/catch_all.git"
+        "source": "https://github.com/catchdigital/catch_all.git"
     },
     "require": {
         "drupal/core": "^9.0"
