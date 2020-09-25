@@ -27,6 +27,15 @@ composer require \
   drupal/http2_server_push:^1.1 \
   drupal/google_tag:^1.4
 ````
+## Install
+The recommended way to install this is to use the drush site-install command.
+`drush si catch_all -y`
+
+Other parameters you should consider using are:
+- `--account-name`
+- `--account-pass`
+- `--site-mail`
+- `--site-name`
 
 ## What's in the profile
 ### Content types
