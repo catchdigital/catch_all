@@ -30,14 +30,17 @@ composer require \
 ### Content types
 - Basic Page
 - Content Page
+
 ### Media Types
 This also has focal point and image optimisation set up out of the box for crops.
 - Image
 - File
+
 ### User Roles
 - Administrator
 - Product Owner
 - Content Editor
+
 ### Modules
 - admin_toolbar
 - admin_toolbar_tools
@@ -112,6 +115,8 @@ This also has focal point and image optimisation set up out of the box for crops
 - eu_cookie_compliance
 
 ## Updating the profile
+More information on creating a profile can be found here: https://www.drupal.org/docs/distributions/creating-distributions/how-to-write-a-drupal-installation-profile
+
 1. Export your configuration.
 2. Copy your configuration over to the profile `cp config/sync/* docroot/profiles/custom/catch_all/config/install`
 3. Remove all UUIDs `find docroot/profiles/custom/catch_all/config/install -type f -exec sed -i '' '/^uuid:/d' {} \;`
