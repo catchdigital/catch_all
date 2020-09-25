@@ -28,6 +28,7 @@ install:
   - filter
   - focal_point
   - hook_event_dispatcher
+  - http2_server_push
   - image
   - imageapi_optimize
   - imageapi_optimize_resmushit

@@ -23,7 +23,8 @@ composer require \
   drupal/eu_cookie_compliance:^1.9 \
   drupal/hook_event_dispatcher:^2.2 \
   drupal/username_enumeration_prevention:^1.1 \
-  drupal/linkit:^6.0.0
+  drupal/linkit:^6.0.0 \
+  drupal/http2_server_push:^1.1
 ````
 
 ## What's in the profile
