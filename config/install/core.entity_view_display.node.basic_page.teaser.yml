@@ -5,6 +5,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.basic_page.body
     - field.field.node.basic_page.field_default_image
+    - field.field.node.basic_page.field_metatags
     - field.field.node.basic_page.field_summary
     - node.type.basic_page
   module:
@@ -23,6 +24,11 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     settings: {  }
@@ -30,4 +36,6 @@ content:
     region: content
 hidden:
   field_default_image: true
+  field_metatags: true
   field_summary: true
+  langcode: true

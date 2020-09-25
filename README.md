@@ -45,13 +45,18 @@ This also has focal point and image optimisation set up out of the box for crops
 
 ### Modules
 - admin_toolbar
+- admin_toolbar_search
 - admin_toolbar_tools
 - advagg
 - advagg_css_minify
 - advagg_js_minify
+- big_pipe
 - block
 - breakpoint
 - ckeditor
+- config
+- config_translation
+- content_translation
 - content_moderation
 - contextual
 - core_event_dispatcher
@@ -74,8 +79,10 @@ This also has focal point and image optimisation set up out of the box for crops
 - imageapi_optimize
 - imageapi_optimize_resmushit
 - inline_form_errors
+- language
 - link
 - linkit
+- locale
 - media
 - media_library
 - menu_link_content
