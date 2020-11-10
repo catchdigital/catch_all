@@ -33,5 +33,6 @@ hidden:
   field_media_image: true
   field_mime_type: true
   field_width: true
+  langcode: true
   name: true
   uid: true

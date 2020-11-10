@@ -23,30 +23,49 @@ composer require \
   drupal/eu_cookie_compliance:^1.9 \
   drupal/hook_event_dispatcher:^2.2 \
   drupal/username_enumeration_prevention:^1.1 \
-  drupal/linkit:^6.0.0
+  drupal/linkit:^6.0.0 \
+  drupal/http2_server_push:^1.1 \
+  drupal/google_tag:^1.4
 ````
+## Install
+The recommended way to install this is to use the drush site-install command.
+`drush si catch_all -y`
+
+Other parameters you should consider using are:
+- `--account-name`
+- `--account-pass`
+- `--site-mail`
+- `--site-name`
 
 ## What's in the profile
 ### Content types
 - Basic Page
 - Content Page
+
 ### Media Types
 This also has focal point and image optimisation set up out of the box for crops.
 - Image
 - File
+
 ### User Roles
 - Administrator
 - Product Owner
 - Content Editor
+
 ### Modules
 - admin_toolbar
+- admin_toolbar_search
 - admin_toolbar_tools
 - advagg
 - advagg_css_minify
 - advagg_js_minify
+- big_pipe
 - block
 - breakpoint
 - ckeditor
+- config
+- config_translation
+- content_translation
 - content_moderation
 - contextual
 - core_event_dispatcher
@@ -62,13 +81,17 @@ This also has focal point and image optimisation set up out of the box for crops
 - file
 - filter
 - focal_point
+- google_tag
 - hook_event_dispatcher
+- http2_server_push
 - image
 - imageapi_optimize
 - imageapi_optimize_resmushit
 - inline_form_errors
+- language
 - link
 - linkit
+- locale
 - media
 - media_library
 - menu_link_content
@@ -112,6 +135,8 @@ This also has focal point and image optimisation set up out of the box for crops
 - eu_cookie_compliance
 
 ## Updating the profile
+More information on creating a profile can be found here: https://www.drupal.org/docs/distributions/creating-distributions/how-to-write-a-drupal-installation-profile
+
 1. Export your configuration.
 2. Copy your configuration over to the profile `cp config/sync/* docroot/profiles/custom/catch_all/config/install`
 3. Remove all UUIDs `find docroot/profiles/custom/catch_all/config/install -type f -exec sed -i '' '/^uuid:/d' {} \;`

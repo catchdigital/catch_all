@@ -4,9 +4,11 @@ dependencies:
   config:
     - field.field.node.basic_page.body
     - field.field.node.basic_page.field_default_image
+    - field.field.node.basic_page.field_metatags
     - field.field.node.basic_page.field_summary
     - node.type.basic_page
   module:
+    - metatag
     - text
     - user
 id: node.basic_page.default
@@ -26,6 +28,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_metatags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   links:
     weight: 1
     region: content
@@ -34,3 +43,4 @@ content:
 hidden:
   field_default_image: true
   field_summary: true
+  langcode: true

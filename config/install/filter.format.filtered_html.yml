@@ -50,11 +50,11 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
+      allowed_view_modes:
+        default: default
       allowed_media_types:
         file: file
         image: image
-      allowed_view_modes:
-        default: default
   linkit:
     id: linkit
     provider: linkit

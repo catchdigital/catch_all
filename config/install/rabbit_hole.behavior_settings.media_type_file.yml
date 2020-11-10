@@ -1,8 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  config:
-    - media.type.file
+dependencies: {  }
 id: media_type_file
 action: access_denied
 allow_override: 1

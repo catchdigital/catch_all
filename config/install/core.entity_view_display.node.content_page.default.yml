@@ -4,10 +4,12 @@ dependencies:
   config:
     - field.field.node.content_page.field_content_sections
     - field.field.node.content_page.field_default_image
+    - field.field.node.content_page.field_metatags
     - field.field.node.content_page.field_summary
     - node.type.content_page
   module:
     - entity_reference_revisions
+    - metatag
     - user
 id: node.content_page.default
 targetEntityType: node
@@ -28,6 +30,13 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
+  field_metatags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
   links:
     weight: 1
     region: content
@@ -36,3 +45,4 @@ content:
 hidden:
   field_default_image: true
   field_summary: true
+  langcode: true
