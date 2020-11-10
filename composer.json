@@ -1,7 +1,7 @@
 {
     "name": "catchdigital/catch_all",
     "description": "A Catch all profile, to allow a base installation.",
-    "type": "drupal-custom-profile",
+    "type": "drupal-profile",
     "authors": [
         {
             "name": "Liam Hiscock",
