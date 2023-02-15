@@ -1,6 +1,25 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - media.type.file
+    - media.type.image
+    - node.type.basic_page
+    - node.type.content_page
+  module:
+    - admin_toolbar_search
+    - content_moderation
+    - contextual
+    - eu_cookie_compliance
+    - filter
+    - media
+    - node
+    - paragraphs
+    - path
+    - redirect
+    - system
+    - toolbar
 id: content_editor
 label: 'Content Editor'
 weight: -8
@@ -9,7 +28,6 @@ permissions:
   - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
-  - 'access in-place editing'
   - 'access media overview'
   - 'access site in maintenance mode'
   - 'access toolbar'
@@ -31,6 +49,7 @@ permissions:
   - 'delete own content_page content'
   - 'delete own file media'
   - 'delete own image media'
+  - 'display eu cookie compliance popup'
   - 'edit any basic_page content'
   - 'edit any content_page content'
   - 'edit any file media'
@@ -44,9 +63,6 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use admin toolbar search'
-  - 'use editorial transition create_new_draft'
-  - 'use editorial transition publish'
-  - 'use editorial transition unpublish'
   - 'use text format filtered_html'
   - 'view all media revisions'
   - 'view all revisions'

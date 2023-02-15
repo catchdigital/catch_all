@@ -1,32 +1,45 @@
 # Catch All Profile
 
 ## Setup
-Install required modules with composer. I have removed these from the composer file to allow projects to take full long term ownership of their dependencies.
+Install required modules with composer. We have removed these from the composer file to allow projects to take full long term ownership of their dependencies. Note that a number of the modules only have dev versions availble that support Drupal 10. The versions of these contrib modules will need updating as more are updated.
+
+The WebP module does not have a dev version available, so we are loading it from an issue fork until it is merged. More info available here: https://www.drupal.org/project/webp/issues/3290669
+
+The repositories section of the composer.json will need to be added to composer to facilitate this:
+
+````
+composer config repositories.composer composer https://packages.drupal.org/8 && composer config repositories.git git https://git.drupalcode.org/issue/webp-3290669.git
+````
+
 ````
 composer require \
-  drupal/admin_toolbar:^2.3 \
-  drupal/advagg:^4.1 \
-  drupal/focal_point:^1.4 \
-  drupal/field_group:^3.1 \
-  drupal/imageapi_optimize:^4.0@beta \
+  drupal/admin_toolbar:^3.3 \
+  drupal/advagg:^6.0@alpha \
+  drupal/focal_point:^2.0@alpha \
+  drupal/field_group:^3.4 \
+  drupal/imageapi_optimize:^4.0 \
   drupal/imageapi_optimize_resmushit:^2.0@beta \
-  drupal/paragraphs:^1.12 \
-  drupal/metatag:^1.14 \
-  drupal/pathauto:^1.8 \
+  drupal/paragraphs:^1.15 \
+  drupal/metatag:^1.22 \
+  drupal/pathauto:^1.11 \
   drupal/rabbit_hole:^1.0@beta \
-  drupal/redirect:^1.6 \
-  drupal/roleassign:^1.0@beta \
-  drupal/seckit:^1.2 \
-  drupal/simple_sitemap:^3.7 \
-  drupal/smart_trim:^1.3 \
-  drupal/stage_file_proxy:^1.0 \
-  drupal/eu_cookie_compliance:^1.9 \
-  drupal/hook_event_dispatcher:^2.2 \
-  drupal/username_enumeration_prevention:^1.1 \
-  drupal/linkit:^6.0.0 \
+  drupal/redirect:^1.8 \
+  drupal/seckit:^2.0 \
+  drupal/simple_sitemap:^4.1 \
+  drupal/smart_trim:^2.0 \
+  drupal/stage_file_proxy:^2.0 \
+  drupal/eu_cookie_compliance:^1.24 \
+  drupal/username_enumeration_prevention:^1.3 \
+  drupal/linkit:6.0.x-dev \
   drupal/http2_server_push:^1.1 \
-  drupal/google_tag:^1.4
+  drupal/google_tag:^1.6 \
+  drupal/hook_event_dispatcher:4.x-dev \
+  drupal/webp:dev-8.x-1.x \
+  drupal/gin:^3.0@RC \
+  drupal/paragraphs_ee:^2.0 \
+  drupal/gin_toolbar:^1.0@RC
 ````
+
 ## Install
 The recommended way to install this is to use the drush site-install command.
 `drush si catch_all -y`
@@ -132,7 +145,11 @@ This also has focal point and image optimisation set up out of the box for crops
 - pathauto
 - views
 - paragraphs
+- paragraphs_ee
 - eu_cookie_compliance
+- gin
+- gin_toolbar
+- webp
 
 ## Updating the profile
 More information on creating a profile can be found here: https://www.drupal.org/docs/distributions/creating-distributions/how-to-write-a-drupal-installation-profile

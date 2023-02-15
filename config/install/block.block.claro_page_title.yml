@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - stark
-id: stark_page_title
-theme: stark
-region: content
+    - claro
+id: claro_page_title
+theme: claro
+region: header
 weight: -30
 provider: null
 plugin: page_title_block

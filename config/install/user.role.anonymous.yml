@@ -1,6 +1,10 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - eu_cookie_compliance
+    - media
+    - system
 id: anonymous
 label: 'Anonymous user'
 weight: -10
