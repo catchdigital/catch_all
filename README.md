@@ -1,8 +1,8 @@
 # Catch All Profile
 
-## Setup
+## Intro
 
-This profile uses the following modules:
+A profile to quickly install and set up a vanilla project with basic configuration. This profile uses the following modules:
 
 ````
 drupal/admin_toolbar:^2.3
