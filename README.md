@@ -1,44 +1,40 @@
 # Catch All Profile
 
 ## Setup
-Install required modules with composer. We have removed these from the composer file to allow projects to take full long term ownership of their dependencies. Note that a number of the modules only have dev versions availble that support Drupal 10. The versions of these contrib modules will need updating as more are updated.
 
-The WebP module does not have a dev version available, so we are loading it from an issue fork until it is merged. More info available here: https://www.drupal.org/project/webp/issues/3290669
+A profile to quickly install and set up a vanilla project with basic configuration. This profile uses the following modules:
 
-The repositories section of the composer.json will need to be added to composer to facilitate this:
-
-````
-composer config repositories.composer composer https://packages.drupal.org/8 && composer config repositories.git git https://git.drupalcode.org/issue/webp-3290669.git
-````
+Note that a number of the modules only have dev versions availble that support Drupal 10. The versions of these contrib modules will need updating as more are updated.
 
 ````
-composer require \
-  drupal/admin_toolbar:^3.3 \
-  drupal/advagg:^6.0@alpha \
-  drupal/focal_point:^2.0@alpha \
-  drupal/field_group:^3.4 \
-  drupal/imageapi_optimize:^4.0 \
-  drupal/imageapi_optimize_resmushit:^2.0@beta \
-  drupal/paragraphs:^1.15 \
-  drupal/metatag:^1.22 \
-  drupal/pathauto:^1.11 \
-  drupal/rabbit_hole:^1.0@beta \
-  drupal/redirect:^1.8 \
-  drupal/seckit:^2.0 \
-  drupal/simple_sitemap:^4.1 \
-  drupal/smart_trim:^2.0 \
-  drupal/stage_file_proxy:^2.0 \
-  drupal/eu_cookie_compliance:^1.24 \
-  drupal/username_enumeration_prevention:^1.3 \
-  drupal/linkit:6.0.x-dev \
-  drupal/http2_server_push:^1.1 \
-  drupal/google_tag:^1.6 \
-  drupal/hook_event_dispatcher:4.x-dev \
-  drupal/webp:dev-8.x-1.x \
-  drupal/gin:^3.0@RC \
-  drupal/paragraphs_ee:^2.0 \
-  drupal/gin_toolbar:^1.0@RC
+"drupal/admin_toolbar": "^3.3"
+"drupal/advagg": "^6.0@alpha"
+"drupal/focal_point": "^2.0@alpha"
+"drupal/field_group": "^3.4"
+"drupal/imageapi_optimize": "^4.0"
+"drupal/imageapi_optimize_resmushit": "^2.0@beta"
+"drupal/paragraphs": "^1.15"
+"drupal/metatag": "^1.22"
+"drupal/pathauto": "^1.11"
+"drupal/rabbit_hole": "^1.0@beta"
+"drupal/redirect": "^1.8"
+"drupal/seckit": "^2.0"
+"drupal/simple_sitemap": "^4.1"
+"drupal/smart_trim": "^2.0"
+"drupal/stage_file_proxy": "^2.0"
+"drupal/eu_cookie_compliance": "^1.24"
+"drupal/username_enumeration_prevention": "^1.3"
+"drupal/linkit": "6.0.x-dev"
+"drupal/http2_server_push": "^1.1"
+"drupal/google_tag": "^1.6"
+"drupal/hook_event_dispatcher": "4.x-dev"
+"drupal/webp": "^1.0@dev"
+"drupal/gin": "^3.0@RC"
+"drupal/paragraphs_ee": "^2.0"
+"drupal/gin_toolbar": "^1.0@RC"
 ````
+
+## Setup
 
 ## Install
 The recommended way to install this is to use the drush site-install command.
