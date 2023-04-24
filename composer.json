@@ -37,7 +37,7 @@
         "drupal/http2_server_push": "^1.1",
         "drupal/google_tag": "^1.6",
         "drupal/hook_event_dispatcher": "4.x-dev",
-        "drupal/webp": "dev-8.x-1.x",
+        "drupal/webp": "dev-1.x",
         "drupal/gin": "^3.0@RC",
         "drupal/paragraphs_ee": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC"
