@@ -4,14 +4,14 @@ dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - image.style.media_library
-  enforced:
-    module:
-      - media_library
   module:
     - image
     - media
     - media_library
     - user
+  enforced:
+    module:
+      - media_library
 id: media_library
 label: 'Media library'
 module: views

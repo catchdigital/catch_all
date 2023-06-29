@@ -2,7 +2,7 @@ name: Catch All
 type: profile
 description: 'A Catch all profile, to allow a base installation.'
 version: VERSION
-core_version_requirement: ^9.0
+core_version_requirement: ^9 || ^10
 install:
   - admin_toolbar
   - admin_toolbar_search
@@ -13,7 +13,7 @@ install:
   - big_pipe
   - block
   - breakpoint
-  - ckeditor
+  - ckeditor5
   - config
   - config_translation
   - content_translation
@@ -58,14 +58,12 @@ install:
   - path
   - path_alias
   - preprocess_event_dispatcher
-  - quickedit
   - rabbit_hole
   - redirect
   - redirect_404
   - responsive_image
   - rh_media
   - rh_node
-  - roleassign
   - seckit
   - settings_tray
   - simple_sitemap
@@ -84,6 +82,10 @@ install:
   - views
   - paragraphs
   - eu_cookie_compliance
+  - webp
+  - paragraphs_ee
+  - paragraphs_features
+  - gin_toolbar
 themes:
   - stark
-  - seven
+  - gin
