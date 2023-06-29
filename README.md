@@ -8,7 +8,6 @@ Note that a number of the modules only have dev versions availble that support D
 
 ````
 "drupal/admin_toolbar": "^3.3"
-"drupal/advagg": "^6.0@alpha"
 "drupal/focal_point": "^2.0@alpha"
 "drupal/field_group": "^3.4"
 "drupal/imageapi_optimize": "^4.0"
@@ -22,10 +21,8 @@ Note that a number of the modules only have dev versions availble that support D
 "drupal/simple_sitemap": "^4.1"
 "drupal/smart_trim": "^2.0"
 "drupal/stage_file_proxy": "^2.0"
-"drupal/eu_cookie_compliance": "^1.24"
 "drupal/username_enumeration_prevention": "^1.3"
 "drupal/linkit": "6.0.x-dev"
-"drupal/http2_server_push": "^1.1"
 "drupal/google_tag": "^1.6"
 "drupal/hook_event_dispatcher": "4.x-dev"
 "drupal/webp": "^1.0@dev"
@@ -65,9 +62,6 @@ This also has focal point and image optimisation set up out of the box for crops
 - admin_toolbar
 - admin_toolbar_search
 - admin_toolbar_tools
-- advagg
-- advagg_css_minify
-- advagg_js_minify
 - big_pipe
 - block
 - breakpoint
@@ -92,7 +86,6 @@ This also has focal point and image optimisation set up out of the box for crops
 - focal_point
 - google_tag
 - hook_event_dispatcher
-- http2_server_push
 - image
 - imageapi_optimize
 - imageapi_optimize_resmushit
@@ -142,7 +135,6 @@ This also has focal point and image optimisation set up out of the box for crops
 - views
 - paragraphs
 - paragraphs_ee
-- eu_cookie_compliance
 - gin
 - gin_toolbar
 - webp
