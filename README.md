@@ -7,28 +7,31 @@ A profile to quickly install and set up a vanilla project with basic configurati
 Note that a number of the modules only have dev versions availble that support Drupal 10. The versions of these contrib modules will need updating as more are updated.
 
 ````
-"drupal/admin_toolbar": "^3.3"
-"drupal/focal_point": "^2.0@alpha"
-"drupal/field_group": "^3.4"
-"drupal/imageapi_optimize": "^4.0"
-"drupal/imageapi_optimize_resmushit": "^2.0@beta"
-"drupal/paragraphs": "^1.15"
-"drupal/metatag": "^1.22"
-"drupal/pathauto": "^1.11"
-"drupal/rabbit_hole": "^1.0@beta"
-"drupal/redirect": "^1.8"
-"drupal/seckit": "^2.0"
-"drupal/simple_sitemap": "^4.1"
-"drupal/smart_trim": "^2.0"
-"drupal/stage_file_proxy": "^2.0"
-"drupal/username_enumeration_prevention": "^1.3"
-"drupal/linkit": "6.0.x-dev"
-"drupal/google_tag": "^1.6"
-"drupal/hook_event_dispatcher": "4.x-dev"
-"drupal/webp": "^1.0@dev"
-"drupal/gin": "^3.0@RC"
-"drupal/paragraphs_ee": "^2.0"
-"drupal/gin_toolbar": "^1.0@RC"
+"drupal/admin_toolbar": "^3.5",
+"drupal/core-composer-scaffold": "^10.3",
+"drupal/core-project-message": "^10.3",
+"drupal/core-recommended": "^10.3",
+"drupal/focal_point": "^2.1",
+"drupal/field_group": "^3.6",
+"drupal/imageapi_optimize": "^4.1@beta",
+"drupal/imageapi_optimize_resmushit": "^2.1@beta",
+"drupal/paragraphs": "^1.18",
+"drupal/metatag": "^2.0",
+"drupal/pathauto": "^1.13",
+"drupal/rabbit_hole": "^2.0",
+"drupal/redirect": "^1.10",
+"drupal/seckit": "^2.0",
+"drupal/simple_sitemap": "^4.2",
+"drupal/smart_trim": "^2.2",
+"drupal/stage_file_proxy": "^3.1",
+"drupal/username_enumeration_prevention": "^1.4",
+"drupal/linkit": "^6.1",
+"drupal/google_tag": "^2.0",
+"drupal/hook_event_dispatcher": "^4.2",
+"drupal/webp": "^1.0",
+"drupal/gin": "^3.0",
+"drupal/gin_toolbar": "^1.0",
+"drupal/paragraphs_ee": "^2.1"
 ````
 
 ## Setup
