@@ -7,16 +7,22 @@ A profile to quickly install and set up a vanilla project with basic configurati
 Note that a number of the modules only have dev versions availble that support Drupal 10. The versions of these contrib modules will need updating as more are updated.
 
 ````
-"drupal/admin_toolbar": "^3.5",
-"drupal/core-composer-scaffold": "^11.1",
-"drupal/core-project-message": "^11.1",
-"drupal/core-recommended": "^11.1",
+"drupal/admin_toolbar": "^3.6",
+"drupal/core-composer-scaffold": "^11.2",
+"drupal/core-project-message": "^11.2",
+"drupal/core-recommended": "^11.2",
+"drupal/field_group": "^4.0",
 "drupal/focal_point": "^2.1",
-"drupal/field_group": "^3.6",
+"drupal/gin": "^5.0",
+"drupal/gin_toolbar": "^3.0",
+"drupal/google_tag": "^2.0",
+"drupal/hook_event_dispatcher": "^4.2",
 "drupal/imageapi_optimize": "^4.1@beta",
 "drupal/imageapi_optimize_resmushit": "^2.1@beta",
-"drupal/paragraphs": "^1.18",
-"drupal/metatag": "^2.0",
+"drupal/linkit": "^7.0",
+"drupal/metatag": "^2.1",
+"drupal/paragraphs": "^1.19",
+"drupal/paragraphs_ee": "^10.0",
 "drupal/pathauto": "^1.13",
 "drupal/rabbit_hole": "^2.0",
 "drupal/redirect": "^1.10",
@@ -25,13 +31,7 @@ Note that a number of the modules only have dev versions availble that support D
 "drupal/smart_trim": "^2.2",
 "drupal/stage_file_proxy": "^3.1",
 "drupal/username_enumeration_prevention": "^1.4",
-"drupal/linkit": "^7.0",
-"drupal/google_tag": "^2.0",
-"drupal/hook_event_dispatcher": "^4.2",
-"drupal/webp": "^1.0",
-"drupal/gin": "^3.0",
-"drupal/gin_toolbar": "^1.0",
-"drupal/paragraphs_ee": "^2.1"
+"drupal/webp": "^1.0"
 ````
 
 ## Setup
